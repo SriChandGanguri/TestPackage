@@ -19,9 +19,21 @@ let package = Package(
     targets: [
         // Targets are the basic building blocks of a package. A target can define a module or a test suite.
         // Targets can depend on other targets in this package, and on products in packages this package depends on.
-        .target(name: "TestPackageTarget",dependencies: [.target(name: "TestFramework"),.product(name: "Alamofire", package: "Alamofire")]),
+        .target(
+            name: "TestPackageTarget",
+            dependencies: [.target(name: "TestFramework", condition: .when(platforms: [.iOS]))],
+            path: "TestPackageTarget"
+        ),
+        .target(
+            name: "TestPackageWrapper",
+            dependencies: [
+                .target(name: "TestFramework", condition: .when(platforms: [.iOS])),
+                .product(name: "Alamofire", package: "Alamofire")
+            ],
+            path: "TestPackageWrapper"
+        ),
         .binaryTarget(
             name: "TestFramework",
-            path: "./Sources/TestPackage/TestFramework.xcframework")
+            path: "./TestPackage/TestFramework.xcframework")
     ]
 )
