@@ -1,0 +1,47 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "TypeDecl",
+        "name": "MyTestFramework",
+        "printedName": "MyTestFramework",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "getString",
+            "printedName": "getString()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13TestFramework02MyaB0C9getStringSSyF",
+            "mangledName": "$s13TestFramework02MyaB0C9getStringSSyF",
+            "moduleName": "TestFramework",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:13TestFramework02MyaB0C",
+        "mangledName": "$s13TestFramework02MyaB0C",
+        "moduleName": "TestFramework",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": []
+}
