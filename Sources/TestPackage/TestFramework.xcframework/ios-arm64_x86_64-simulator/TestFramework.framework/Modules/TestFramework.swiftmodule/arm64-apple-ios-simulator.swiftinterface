@@ -8,6 +8,5 @@ import _Concurrency
 import _StringProcessing
 @_hasMissingDesignatedInitializers public class MyTestFramework {
   public static func getString() -> Swift.String
-  public static func getSession() -> Swift.Bool
   @objc deinit
 }
