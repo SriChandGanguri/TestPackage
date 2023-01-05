@@ -5,6 +5,16 @@
     "printedName": "TopLevel",
     "children": [
       {
+        "kind": "Import",
+        "name": "Alamofire",
+        "printedName": "Alamofire",
+        "declKind": "Import",
+        "moduleName": "TestFramework",
+        "declAttributes": [
+          "ImplementationOnly"
+        ]
+      },
+      {
         "kind": "TypeDecl",
         "name": "MyTestFramework",
         "printedName": "MyTestFramework",
@@ -24,6 +34,29 @@
             "declKind": "Func",
             "usr": "s:13TestFramework02MyaB0C9getStringSSyFZ",
             "mangledName": "$s13TestFramework02MyaB0C9getStringSSyFZ",
+            "moduleName": "TestFramework",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getSession",
+            "printedName": "getSession()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13TestFramework02MyaB0C10getSessionSbyFZ",
+            "mangledName": "$s13TestFramework02MyaB0C10getSessionSbyFZ",
             "moduleName": "TestFramework",
             "static": true,
             "declAttributes": [
