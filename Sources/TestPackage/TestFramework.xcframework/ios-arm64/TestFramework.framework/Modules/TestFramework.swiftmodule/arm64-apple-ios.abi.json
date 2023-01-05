@@ -22,10 +22,12 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:13TestFramework02MyaB0C9getStringSSyF",
-            "mangledName": "$s13TestFramework02MyaB0C9getStringSSyF",
+            "usr": "s:13TestFramework02MyaB0C9getStringSSyFZ",
+            "mangledName": "$s13TestFramework02MyaB0C9getStringSSyFZ",
             "moduleName": "TestFramework",
+            "static": true,
             "declAttributes": [
+              "Final",
               "AccessControl"
             ],
             "funcSelfKind": "NonMutating"

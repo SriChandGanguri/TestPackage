@@ -7,6 +7,6 @@ import Swift
 import _Concurrency
 import _StringProcessing
 @_hasMissingDesignatedInitializers public class MyTestFramework {
-  public func getString() -> Swift.String
+  public static func getString() -> Swift.String
   @objc deinit
 }
