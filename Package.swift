@@ -10,7 +10,7 @@ let package = Package(
             targets: ["TestPackageTarget"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/Alamofire/Alamofire", from: "5.6.4"),
+        .package(url: "https://github.com/Alamofire/Alamofire", "5.4.0"..."5.6.4"),
     ],
     targets: [
         .target(
