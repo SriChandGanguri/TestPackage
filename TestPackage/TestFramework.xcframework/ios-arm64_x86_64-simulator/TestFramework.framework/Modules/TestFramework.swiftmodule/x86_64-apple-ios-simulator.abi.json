@@ -9,7 +9,10 @@
         "name": "Alamofire",
         "printedName": "Alamofire",
         "declKind": "Import",
-        "moduleName": "TestFramework"
+        "moduleName": "TestFramework",
+        "declAttributes": [
+          "ImplementationOnly"
+        ]
       },
       {
         "kind": "TypeDecl",
