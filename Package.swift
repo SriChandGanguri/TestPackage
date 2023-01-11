@@ -15,7 +15,7 @@ let package = Package(
     targets: [
         .target(
             name: "TestPackageTarget",
-            dependencies: [.target(name: "TestFramework", condition: .when(platforms: [.iOS]))],
+            dependencies: [.target(name: "TestPackageWrapper", condition: .when(platforms: [.iOS]))],
             path: "TestPackageTarget"
         ),
         .target(
