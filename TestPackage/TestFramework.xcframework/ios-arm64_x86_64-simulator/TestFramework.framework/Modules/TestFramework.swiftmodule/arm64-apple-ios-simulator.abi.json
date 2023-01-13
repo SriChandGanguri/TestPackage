@@ -5,6 +5,13 @@
     "printedName": "TopLevel",
     "children": [
       {
+        "kind": "Import",
+        "name": "Alamofire",
+        "printedName": "Alamofire",
+        "declKind": "Import",
+        "moduleName": "TestFramework"
+      },
+      {
         "kind": "TypeDecl",
         "name": "MyTestFramework",
         "printedName": "MyTestFramework",
@@ -38,8 +45,7 @@
         "mangledName": "$s13TestFramework02MyaB0C",
         "moduleName": "TestFramework",
         "declAttributes": [
-          "AccessControl",
-          "RawDocComment"
+          "AccessControl"
         ],
         "hasMissingDesignatedInitializers": true
       }
