@@ -1,12 +1,12 @@
 Pod::Spec.new do |spec|
 spec.name         = "TestPackageSriChand"
-spec.version      = "1.2.5"
+spec.version      = "1.2.6"
 spec.summary      = "Brief description"
 spec.description  = <<-DESC
 This is a way longer description
 DESC
 spec.homepage     = "https://github.com/SriChandGanguri/TestPackage"
-spec.license      = { :type => "MIT", :file => "LICENSE" }
+spec.license      = { :type => "MIT", :file => "License.md" }
 spec.author             = { "Sri Chand" => "srichand@uvik.in" }
 spec.documentation_url = "https://github.com/SriChandGanguri/TestPackage"
 spec.platforms = { :ios => "13.0" }
