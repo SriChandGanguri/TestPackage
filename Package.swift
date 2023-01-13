@@ -10,9 +10,7 @@ let package = Package(
             targets: ["TestPackageTarget"]),
     ],
     dependencies: [
-//        .package(url: "https://github.com/Alamofire/Alamofire", "5.4.0"..."5.6.4"),
-        .package(url: "https://github.com/firebase/firebase-ios-sdk.git", from: "8.10.0"),
-
+        .package(url: "https://github.com/Alamofire/Alamofire", "5.4.0"..."5.6.4"),
     ],
     targets: [
         .target(
@@ -25,7 +23,7 @@ let package = Package(
             dependencies: [
                 .target(name: "TestFramework", condition: .when(platforms: [.iOS])),
 //                .product(name: "Alamofire", package: "Alamofire")
-                .product(name: "FirebaseAnalytics", package: "firebase-ios-sdk"),
+                .product(name: "Alamofire", package: "Alamofire"),
             ],
             path: "TestPackageWrapper"
         ),
