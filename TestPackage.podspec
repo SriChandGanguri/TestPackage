@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
-spec.name         = "TestPackage"
-spec.version      = "1.2.2"
+spec.name         = "TestPackageSriChand"
+spec.version      = "1.2.3"
 spec.summary      = "Brief description"
 spec.description  = <<-DESC
 This is a way longer description
