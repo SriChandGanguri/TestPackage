@@ -45,6 +45,10 @@
 	<dict>
 		<key>Headers/TestFramework-Swift.h</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			rDyO72GLouU9Ch2+1j2SDVVNg1U=
+			</data>
 			<key>hash2</key>
 			<data>
 			vKvGsMlrikszwapxcrq0uQQ1t4FdQbI2CbZkpEDHP7Y=
@@ -52,6 +56,10 @@
 		</dict>
 		<key>Headers/TestFramework.h</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			7aXsv9yEpOHY2Y4OybBRPMYFC64=
+			</data>
 			<key>hash2</key>
 			<data>
 			6YtNprMxXKNK6b5FGmLCpWA+/CZS67eRcu4Fwrrx2mI=
@@ -59,6 +67,10 @@
 		</dict>
 		<key>Modules/TestFramework.swiftmodule/arm64-apple-ios.abi.json</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			D1Ss4YkaxHgp//R1Po1Y5J7gZ1A=
+			</data>
 			<key>hash2</key>
 			<data>
 			7b7UCnwSVqvY6V5U8BTMG2JmOp9z+JSKqPiqs1gIiIQ=
@@ -66,6 +78,10 @@
 		</dict>
 		<key>Modules/TestFramework.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			8jK4NwJ0J3Eq/7hV85/hV/M64dg=
+			</data>
 			<key>hash2</key>
 			<data>
 			ZNO1on273ewfCicL1RsYgK0HGfJCFGJGjQ5jJOAgDfY=
@@ -73,6 +89,10 @@
 		</dict>
 		<key>Modules/TestFramework.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			lTzVa3qXs+s1toKkrD6SSgow9NY=
+			</data>
 			<key>hash2</key>
 			<data>
 			xixMwQAZbE59VbI/df7wi36Wk0kD43kbjVRkJ4SC9wA=
@@ -80,6 +100,10 @@
 		</dict>
 		<key>Modules/TestFramework.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			8jK4NwJ0J3Eq/7hV85/hV/M64dg=
+			</data>
 			<key>hash2</key>
 			<data>
 			ZNO1on273ewfCicL1RsYgK0HGfJCFGJGjQ5jJOAgDfY=
@@ -87,6 +111,10 @@
 		</dict>
 		<key>Modules/TestFramework.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			gthA+lm4xCuQVXceZGluC5pCzdg=
+			</data>
 			<key>hash2</key>
 			<data>
 			i/FRQt5HimWksf4MnrPiwA2D69W2j5VxuEjzOMxRDUM=
@@ -94,6 +122,10 @@
 		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			xCO6NbkFD9OUW2zixpWAiABFwf4=
+			</data>
 			<key>hash2</key>
 			<data>
 			ZtWd1UbDRfvoyucCuHXm7cd3d7mls7LQZwFs0kWHca8=
