@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/TestFramework-Swift.h</key>
 		<data>
-		pL5GTAYPmwmdkhwPk/y5uoG3bhQ=
+		BcMr2o5V3z7RB1FezBQrVX6vbbU=
 		</data>
 		<key>Headers/TestFramework.h</key>
 		<data>
@@ -18,11 +18,11 @@
 		</data>
 		<key>Modules/TestFramework.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		eMmF9FY6bGtQ/RdBU77Vle+2SpI=
+		oZBJuDGx+I4PqxfFrzrZyN0NIMY=
 		</data>
 		<key>Modules/TestFramework.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		fWvYNkeSN1FPj7iqXiSAon7VIF0=
+		gLCXP2smw784DnjHS8RvyVb/PMM=
 		</data>
 		<key>Modules/TestFramework.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
@@ -30,11 +30,11 @@
 		</data>
 		<key>Modules/TestFramework.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		fWvYNkeSN1FPj7iqXiSAon7VIF0=
+		gLCXP2smw784DnjHS8RvyVb/PMM=
 		</data>
 		<key>Modules/TestFramework.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		zGrJHFm/w70hqi2WgeS9DweVfgU=
+		beztTox4lxztlUH2NKUxlyDiCEE=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -51,11 +51,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			pL5GTAYPmwmdkhwPk/y5uoG3bhQ=
+			BcMr2o5V3z7RB1FezBQrVX6vbbU=
 			</data>
 			<key>hash2</key>
 			<data>
-			QcKLjDyEIgtpgySSo1QZV/pCvtMxl97GAZ1t8sp4qws=
+			59Ns3GygpT+Ty4DjrQUWSVfQBDxWPdvLVTeth9W1550=
 			</data>
 		</dict>
 		<key>Headers/TestFramework.h</key>
@@ -73,22 +73,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			eMmF9FY6bGtQ/RdBU77Vle+2SpI=
+			oZBJuDGx+I4PqxfFrzrZyN0NIMY=
 			</data>
 			<key>hash2</key>
 			<data>
-			Mg2nzG+EOOgbtTowK/9m+ZsQ5R36VJqw4Dsq4mtfF8s=
+			65ce2Bq9UEx4mc7u6SS7SI0Mp3l4vJhJN+NZf4LW3Ic=
 			</data>
 		</dict>
 		<key>Modules/TestFramework.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			fWvYNkeSN1FPj7iqXiSAon7VIF0=
+			gLCXP2smw784DnjHS8RvyVb/PMM=
 			</data>
 			<key>hash2</key>
 			<data>
-			sdxnFufFDOsz9qSYBKyMFF+hlEr2ZOwTs5ScQQRBoNo=
+			SyMBWGI/GRgvG237SRnixAdpR8yzftMROhPDcXDbqoE=
 			</data>
 		</dict>
 		<key>Modules/TestFramework.swiftmodule/arm64-apple-ios.swiftdoc</key>
@@ -106,22 +106,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			fWvYNkeSN1FPj7iqXiSAon7VIF0=
+			gLCXP2smw784DnjHS8RvyVb/PMM=
 			</data>
 			<key>hash2</key>
 			<data>
-			sdxnFufFDOsz9qSYBKyMFF+hlEr2ZOwTs5ScQQRBoNo=
+			SyMBWGI/GRgvG237SRnixAdpR8yzftMROhPDcXDbqoE=
 			</data>
 		</dict>
 		<key>Modules/TestFramework.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			zGrJHFm/w70hqi2WgeS9DweVfgU=
+			beztTox4lxztlUH2NKUxlyDiCEE=
 			</data>
 			<key>hash2</key>
 			<data>
-			5f/ql3ntMmJw/rI6hDUEjTNJqyT4dHoN/1tk+U13kv4=
+			mFD9as3DZTUVvsi0QHeSThQTCsazFXAngMUjb+dQxNI=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
