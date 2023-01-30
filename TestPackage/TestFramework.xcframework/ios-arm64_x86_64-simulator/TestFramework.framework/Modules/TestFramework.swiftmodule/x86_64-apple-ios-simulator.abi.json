@@ -48,24 +48,26 @@
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init()",
+            "printedName": "init(bundle:)",
             "children": [
               {
                 "kind": "TypeNominal",
                 "name": "MyViewController",
                 "printedName": "TestFramework.MyViewController",
                 "usr": "c:@M@TestFramework@objc(cs)MyViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bundle",
+                "printedName": "Foundation.Bundle",
+                "usr": "c:objc(cs)NSBundle"
               }
             ],
             "declKind": "Constructor",
-            "usr": "c:@M@TestFramework@objc(cs)MyViewController(im)init",
-            "mangledName": "$s13TestFramework16MyViewControllerCACycfc",
+            "usr": "s:13TestFramework16MyViewControllerC6bundleACSo8NSBundleC_tcfc",
+            "mangledName": "$s13TestFramework16MyViewControllerC6bundleACSo8NSBundleC_tcfc",
             "moduleName": "TestFramework",
-            "overriding": true,
-            "objc_name": "init",
             "declAttributes": [
-              "Dynamic",
-              "ObjC",
               "Custom",
               "AccessControl"
             ],

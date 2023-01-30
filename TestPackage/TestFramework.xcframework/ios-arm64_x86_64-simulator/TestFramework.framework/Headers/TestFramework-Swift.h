@@ -258,7 +258,6 @@ using UInt = size_t;
 SWIFT_CLASS("_TtC13TestFramework16MyViewController")
 @interface MyViewController : UIViewController
 - (void)viewDidLoad;
-- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder SWIFT_UNAVAILABLE;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil SWIFT_UNAVAILABLE;
 @end
@@ -531,7 +530,6 @@ using UInt = size_t;
 SWIFT_CLASS("_TtC13TestFramework16MyViewController")
 @interface MyViewController : UIViewController
 - (void)viewDidLoad;
-- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder SWIFT_UNAVAILABLE;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil SWIFT_UNAVAILABLE;
 @end

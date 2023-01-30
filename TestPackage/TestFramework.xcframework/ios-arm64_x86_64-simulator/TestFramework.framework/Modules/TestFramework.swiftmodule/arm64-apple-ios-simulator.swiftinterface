@@ -10,7 +10,7 @@ import _Concurrency
 import _StringProcessing
 @objc @_hasMissingDesignatedInitializers @_Concurrency.MainActor(unsafe) public class MyViewController : UIKit.UIViewController {
   @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewDidLoad()
-  @_Concurrency.MainActor(unsafe) @objc dynamic public init()
+  @_Concurrency.MainActor(unsafe) public init(bundle: Foundation.Bundle)
   @objc deinit
 }
 @_hasMissingDesignatedInitializers public class MyTestFramework {
