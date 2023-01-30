@@ -48,34 +48,6 @@
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(bundle:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "MyViewController",
-                "printedName": "TestFramework.MyViewController",
-                "usr": "c:@M@TestFramework@objc(cs)MyViewController"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Bundle",
-                "printedName": "Foundation.Bundle",
-                "usr": "c:objc(cs)NSBundle"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "s:13TestFramework16MyViewControllerC6bundleACSo8NSBundleC_tcfc",
-            "mangledName": "$s13TestFramework16MyViewControllerC6bundleACSo8NSBundleC_tcfc",
-            "moduleName": "TestFramework",
-            "declAttributes": [
-              "Custom",
-              "AccessControl"
-            ],
-            "init_kind": "Designated"
-          },
-          {
-            "kind": "Constructor",
-            "name": "init",
             "printedName": "init(nibName:bundle:)",
             "children": [
               {
@@ -127,6 +99,47 @@
               "Override"
             ],
             "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(coder:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "TestFramework.MyViewController?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MyViewController",
+                    "printedName": "TestFramework.MyViewController",
+                    "usr": "c:@M@TestFramework@objc(cs)MyViewController"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NSCoder",
+                "printedName": "Foundation.NSCoder",
+                "usr": "c:objc(cs)NSCoder"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@TestFramework@objc(cs)MyViewController(im)initWithCoder:",
+            "mangledName": "$s13TestFramework16MyViewControllerC5coderACSgSo7NSCoderC_tcfc",
+            "moduleName": "TestFramework",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithCoder:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Required"
+            ],
+            "init_kind": "Designated"
           }
         ],
         "declKind": "Class",
@@ -139,7 +152,7 @@
           "ObjC"
         ],
         "superclassUsr": "c:objc(cs)UIViewController",
-        "hasMissingDesignatedInitializers": true,
+        "inheritsConvenienceInitializers": true,
         "superclassNames": [
           "UIKit.UIViewController",
           "UIKit.UIResponder",
@@ -238,6 +251,34 @@
               "AccessControl"
             ],
             "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "presentVC",
+            "printedName": "presentVC(vc:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13TestFramework02MyaB0C9presentVC2vcySo16UIViewControllerC_tFZ",
+            "mangledName": "$s13TestFramework02MyaB0C9presentVC2vcySo16UIViewControllerC_tFZ",
+            "moduleName": "TestFramework",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
           }
         ],
         "declKind": "Class",
@@ -252,13 +293,5 @@
     ],
     "json_format_version": 8
   },
-  "ConstValues": [
-    {
-      "filePath": "\/Users\/srichandganguri\/Desktop\/TestFramework\/TestFramework\/MyViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 128,
-      "length": 16,
-      "value": "\"TestFramework.MyViewController\""
-    }
-  ]
+  "ConstValues": []
 }
