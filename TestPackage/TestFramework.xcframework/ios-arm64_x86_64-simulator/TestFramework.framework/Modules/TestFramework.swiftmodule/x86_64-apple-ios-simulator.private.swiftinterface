@@ -5,9 +5,11 @@
 import Alamofire
 import Swift
 @_exported import TestFramework
+import UIKit
 import _Concurrency
 import _StringProcessing
 @_hasMissingDesignatedInitializers public class MyTestFramework {
   public static func getString() -> Swift.String
+  public static func presentVC(vc: UIKit.UIViewController)
   @objc deinit
 }

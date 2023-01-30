@@ -6,8 +6,25 @@
     "children": [
       {
         "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "TestFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "Alamofire",
         "printedName": "Alamofire",
+        "declKind": "Import",
+        "moduleName": "TestFramework"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
         "declKind": "Import",
         "moduleName": "TestFramework"
       },
@@ -31,6 +48,34 @@
             "declKind": "Func",
             "usr": "s:13TestFramework02MyaB0C9getStringSSyFZ",
             "mangledName": "$s13TestFramework02MyaB0C9getStringSSyFZ",
+            "moduleName": "TestFramework",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "presentVC",
+            "printedName": "presentVC(vc:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13TestFramework02MyaB0C9presentVC2vcySo16UIViewControllerC_tFZ",
+            "mangledName": "$s13TestFramework02MyaB0C9presentVC2vcySo16UIViewControllerC_tFZ",
             "moduleName": "TestFramework",
             "static": true,
             "declAttributes": [
