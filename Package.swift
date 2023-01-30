@@ -21,14 +21,14 @@ let package = Package(
         .target(
             name: "TestPackageWrapper",
             dependencies: [
-                .target(name: "MyStaticLibrary", condition: .when(platforms: [.iOS])),
+                .target(name: "TestFramework", condition: .when(platforms: [.iOS])),
 //                .product(name: "Alamofire", package: "Alamofire")
                 .product(name: "Alamofire", package: "Alamofire"),
             ],
             path: "TestPackageWrapper"
         ),
         .binaryTarget(
-            name: "MyStaticLibrary",
-            path: "./TestPackage/MyStaticLibrary.xcframework")
+            name: "TestFramework",
+            path: "./TestPackage/TestFramework.xcframework")
     ]
 )
