@@ -72,32 +72,6 @@
             "init_kind": "Designated"
           },
           {
-            "kind": "Function",
-            "name": "loadView",
-            "printedName": "loadView()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@M@TestFramework@objc(cs)MyViewController(im)loadView",
-            "mangledName": "$s13TestFramework16MyViewControllerC04loadD0yyF",
-            "moduleName": "TestFramework",
-            "overriding": true,
-            "objc_name": "loadView",
-            "declAttributes": [
-              "Dynamic",
-              "ObjC",
-              "Custom",
-              "Override",
-              "AccessControl"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
             "kind": "Constructor",
             "name": "init",
             "printedName": "init(nibName:bundle:)",
