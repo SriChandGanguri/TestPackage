@@ -46,6 +46,32 @@
             "funcSelfKind": "NonMutating"
           },
           {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "MyViewController",
+                "printedName": "TestFramework.MyViewController",
+                "usr": "c:@M@TestFramework@objc(cs)MyViewController"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@TestFramework@objc(cs)MyViewController(im)init",
+            "mangledName": "$s13TestFramework16MyViewControllerCACycfc",
+            "moduleName": "TestFramework",
+            "overriding": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
             "kind": "Function",
             "name": "loadView",
             "printedName": "loadView()",
@@ -125,47 +151,6 @@
               "Override"
             ],
             "init_kind": "Designated"
-          },
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init(coder:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "TestFramework.MyViewController?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "MyViewController",
-                    "printedName": "TestFramework.MyViewController",
-                    "usr": "c:@M@TestFramework@objc(cs)MyViewController"
-                  }
-                ],
-                "usr": "s:Sq"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "NSCoder",
-                "printedName": "Foundation.NSCoder",
-                "usr": "c:objc(cs)NSCoder"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "c:@M@TestFramework@objc(cs)MyViewController(im)initWithCoder:",
-            "mangledName": "$s13TestFramework16MyViewControllerC5coderACSgSo7NSCoderC_tcfc",
-            "moduleName": "TestFramework",
-            "overriding": true,
-            "implicit": true,
-            "objc_name": "initWithCoder:",
-            "declAttributes": [
-              "Dynamic",
-              "ObjC",
-              "Custom",
-              "Required"
-            ],
-            "init_kind": "Designated"
           }
         ],
         "declKind": "Class",
@@ -178,7 +163,7 @@
           "ObjC"
         ],
         "superclassUsr": "c:objc(cs)UIViewController",
-        "inheritsConvenienceInitializers": true,
+        "hasMissingDesignatedInitializers": true,
         "superclassNames": [
           "UIKit.UIViewController",
           "UIKit.UIResponder",
@@ -319,5 +304,13 @@
     ],
     "json_format_version": 8
   },
-  "ConstValues": []
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/srichandganguri\/Desktop\/TestFramework\/TestFramework\/MyViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 128,
+      "length": 16,
+      "value": "\"TestFramework.MyViewController\""
+    }
+  ]
 }

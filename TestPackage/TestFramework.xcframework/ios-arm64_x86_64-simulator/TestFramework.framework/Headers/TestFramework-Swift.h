@@ -251,16 +251,17 @@ using UInt = size_t;
 #endif
 
 #if defined(__OBJC__)
+@class NSCoder;
 @class NSString;
 @class NSBundle;
-@class NSCoder;
 
 SWIFT_CLASS("_TtC13TestFramework16MyViewController")
 @interface MyViewController : UIViewController
 - (void)viewDidLoad;
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder SWIFT_UNAVAILABLE;
 - (void)loadView;
-- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
-- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil SWIFT_UNAVAILABLE;
 @end
 
 #endif
@@ -524,16 +525,17 @@ using UInt = size_t;
 #endif
 
 #if defined(__OBJC__)
+@class NSCoder;
 @class NSString;
 @class NSBundle;
-@class NSCoder;
 
 SWIFT_CLASS("_TtC13TestFramework16MyViewController")
 @interface MyViewController : UIViewController
 - (void)viewDidLoad;
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder SWIFT_UNAVAILABLE;
 - (void)loadView;
-- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
-- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil SWIFT_UNAVAILABLE;
 @end
 
 #endif
