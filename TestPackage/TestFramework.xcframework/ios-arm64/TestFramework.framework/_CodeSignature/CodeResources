@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/TestFramework-Swift.h</key>
 		<data>
-		5ALM4NmdBF7pkx8+iD/JH8Q9Hf0=
+		rDyO72GLouU9Ch2+1j2SDVVNg1U=
 		</data>
 		<key>Headers/TestFramework.h</key>
 		<data>
@@ -18,11 +18,11 @@
 		</data>
 		<key>Modules/TestFramework.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		HWij53soHWdXYiI9relcKzJExd0=
+		j+fIk/wcgfwgHzZg+vPfFa4LPis=
 		</data>
 		<key>Modules/TestFramework.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		bOWzs3wElXai2eKNPnUNS1rCvrs=
+		GtnKXithc2+I6xLN39J9peodJ7M=
 		</data>
 		<key>Modules/TestFramework.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
@@ -30,19 +30,19 @@
 		</data>
 		<key>Modules/TestFramework.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		bOWzs3wElXai2eKNPnUNS1rCvrs=
+		GtnKXithc2+I6xLN39J9peodJ7M=
 		</data>
 		<key>Modules/TestFramework.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		ck29bq6QLvxwAT9HjffQ1lcZmbU=
+		5izVvLegmA0/oRqaw9/bHBBSVw8=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
 		xCO6NbkFD9OUW2zixpWAiABFwf4=
 		</data>
-		<key>MyViewController.nib</key>
+		<key>MyView.nib</key>
 		<data>
-		TeieHgVVvnM/pUXmKJsxS1AnXnU=
+		RSv0l/57YcWsV7oFknjDtaiMqRM=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -51,11 +51,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			5ALM4NmdBF7pkx8+iD/JH8Q9Hf0=
+			rDyO72GLouU9Ch2+1j2SDVVNg1U=
 			</data>
 			<key>hash2</key>
 			<data>
-			gOiX/XUNzQet8YeTN21QPTvXl3g+Me3eVCHhzLaMXLY=
+			vKvGsMlrikszwapxcrq0uQQ1t4FdQbI2CbZkpEDHP7Y=
 			</data>
 		</dict>
 		<key>Headers/TestFramework.h</key>
@@ -73,22 +73,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			HWij53soHWdXYiI9relcKzJExd0=
+			j+fIk/wcgfwgHzZg+vPfFa4LPis=
 			</data>
 			<key>hash2</key>
 			<data>
-			OnkIPprzj030DAoHYxB2cqPMaTpVvNcY6OnEx0WfSRg=
+			KFndIGZ1dcR/EixF82Asdugyoryx9zDgpGWts621JcA=
 			</data>
 		</dict>
 		<key>Modules/TestFramework.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			bOWzs3wElXai2eKNPnUNS1rCvrs=
+			GtnKXithc2+I6xLN39J9peodJ7M=
 			</data>
 			<key>hash2</key>
 			<data>
-			vx82DZNyb700A7MIf9S0fOzBoBsiFXPm29Ne09Fmc/E=
+			rcqhOKCb9LjWM12aHqH1TiW779UtLTFLm6cfifxigPo=
 			</data>
 		</dict>
 		<key>Modules/TestFramework.swiftmodule/arm64-apple-ios.swiftdoc</key>
@@ -106,22 +106,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			bOWzs3wElXai2eKNPnUNS1rCvrs=
+			GtnKXithc2+I6xLN39J9peodJ7M=
 			</data>
 			<key>hash2</key>
 			<data>
-			vx82DZNyb700A7MIf9S0fOzBoBsiFXPm29Ne09Fmc/E=
+			rcqhOKCb9LjWM12aHqH1TiW779UtLTFLm6cfifxigPo=
 			</data>
 		</dict>
 		<key>Modules/TestFramework.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			ck29bq6QLvxwAT9HjffQ1lcZmbU=
+			5izVvLegmA0/oRqaw9/bHBBSVw8=
 			</data>
 			<key>hash2</key>
 			<data>
-			i32eq6WOGyjnKnf7CyBP+RlwBLwDG6AmhjrPvj7vmIY=
+			X6QkJTHaqPj3M7Fnm170b2Dq1FOwYv/PtVm6o6eqYdU=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -135,15 +135,15 @@
 			ZtWd1UbDRfvoyucCuHXm7cd3d7mls7LQZwFs0kWHca8=
 			</data>
 		</dict>
-		<key>MyViewController.nib</key>
+		<key>MyView.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			TeieHgVVvnM/pUXmKJsxS1AnXnU=
+			RSv0l/57YcWsV7oFknjDtaiMqRM=
 			</data>
 			<key>hash2</key>
 			<data>
-			1HOxEYfV6zT6H2EES91BIo/4iFL9I56475TukINxlWQ=
+			lZ2sXYc1viS48WbPFO3PCmbkapukr139/VQDS/cyCrs=
 			</data>
 		</dict>
 	</dict>
